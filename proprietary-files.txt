@@ -267,7 +267,6 @@ odm/lib64/libarcsoft_scbokeh_video.so
 odm/lib64/libarcsoft_smart_denoise.so
 odm/lib64/libarcsoft_supernight.so
 odm/lib64/libarcsoft_super_night_raw.so
-odm/lib64/libarcsoft_superportrait.so
 vendor/lib64/libbitmlengine.so
 vendor/lib64/libcamera2ndk_vendor.so
 vendor/lib64/libcamera_nn_stub.so
