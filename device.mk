@@ -107,7 +107,7 @@ PRODUCT_PACKAGES += \
     init.qti.media.sh \
 
 PRODUCT_PACKAGES += \
-    fstab.emmc \
+    fstab.qcom \
     vendor.oem_ftm.rc \
     init.qcom.usb.rc \
     init.qcom.rc \
