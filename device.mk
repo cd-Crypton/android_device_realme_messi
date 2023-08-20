@@ -41,7 +41,8 @@ PRODUCT_PACKAGES += \
 
 # ANT+
 PRODUCT_PACKAGES += \
-    AntHalService
+    AntHalService \
+    com.dsi.ant@1.0.vendor
 
 # Audio
 PRODUCT_COPY_FILES += \
