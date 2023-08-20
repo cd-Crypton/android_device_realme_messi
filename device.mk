@@ -123,6 +123,10 @@ PRODUCT_PACKAGES += \
     init.aging.rc \
     init.recovery.qcom.rc \
 
+# Seccomp policy
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/seccomp/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy
+
 # Shipping API level
 BOBOARD_API_LEVEL := 30
 BOARD_SHIPPING_API_LEVEL := 30
