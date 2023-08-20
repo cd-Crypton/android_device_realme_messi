@@ -108,6 +108,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     fstab.qcom \
+    fstab.qcom.ramdisk \
     init.oplus.hw.rc \
     init.oplus.hw.rc.recovery \
     vendor.oem_ftm.rc \
