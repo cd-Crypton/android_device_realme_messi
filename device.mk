@@ -58,6 +58,9 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-service
 
 # Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     CarrierConfigOverlay \
