@@ -51,6 +51,9 @@ TARGET_NO_BOOTLOADER := true
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
+# Fingerprint
+TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/oplus:libudfps_extension.oplus
+
 # Kernel
 BOARD_BOOTIMG_HEADER_VERSION := 2
 BOARD_KERNEL_BASE := 0x00000000
