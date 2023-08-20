@@ -55,6 +55,8 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
+PRODUCT_PACKAGES += \
+    CarrierConfigResCommon
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
