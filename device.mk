@@ -109,7 +109,8 @@ PRODUCT_SHIPPING_API_LEVEL := 31
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/oplus
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/realme/messi/messi-vendor.mk)
