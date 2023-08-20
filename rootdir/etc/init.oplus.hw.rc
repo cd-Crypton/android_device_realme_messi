@@ -1,0 +1,12 @@
+#
+# Copyright (C) 2022-2023 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+# messi
+on property:ro.boot.prjname=2172F
+    setprop ro.boot.hardware.revision "IN"
+    
+on property:ro.boot.prjname=21731
+    setprop ro.boot.hardware.revision "RU"

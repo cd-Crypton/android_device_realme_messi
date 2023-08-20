@@ -4,6 +4,14 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
+// Oplus Props
+cc_library_static {
+    name: "libinit_oplus",
+    recovery_available: true,
+    shared_libs: ["libbase"],
+    srcs: ["etc/init_oplus.cpp"],
+}
+
 // Init scripts
 sh_binary {
     name: "init.class_main.sh",
@@ -174,6 +182,14 @@ prebuilt_etc {
     src: "etc/vendor.oem_ftm_svc_disable.rc",
     sub_dir: "init/hw",
     vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.oplus.hw.rc",
+    src: "init.oplus.hw.rc",
+    sub_dir: "init",
+    device_specific: true,
+    recovery_available: true,
 }
 
 // fstab

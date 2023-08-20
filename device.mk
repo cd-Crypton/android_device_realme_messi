@@ -108,6 +108,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     fstab.qcom \
+    init.oplus.hw.rc \
+    init.oplus.hw.rc.recovery \
     vendor.oem_ftm.rc \
     init.qcom.usb.rc \
     init.qcom.rc \
