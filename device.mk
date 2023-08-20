@@ -96,6 +96,8 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
 
 # Shipping API level
+BOBOARD_API_LEVEL := 30
+BOARD_SHIPPING_API_LEVEL := 30
 PRODUCT_SHIPPING_API_LEVEL := 31
 
 # Soong namespaces
