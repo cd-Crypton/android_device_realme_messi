@@ -74,9 +74,6 @@ vendor/lib/liba2dpoffload.so
 vendor/lib/libssrec.so
 odm/lib/vendor.oplus.hardware.performance@1.0.so
 
-# Audio firmware
-odm/firmware/tfa98xx.cnt
-
 # Audio libraries
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libqcbassboost.so
@@ -130,7 +127,7 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so
 odm/etc/camera/fb_default
 odm/etc/camera/fwk_config.json
 vendor/lib64/camera/components/com.qti.node.remosaic.so
-odm/lib64/libSonyIMX471RmscLibrary.so
+vendor/lib64/libSonyIMX471RmscLibrary.so
 odm/lib64/libormshalclient.so
 
 vendor/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode
@@ -270,9 +267,7 @@ odm/lib64/libarcsoft_scbokeh_video.so
 odm/lib64/libarcsoft_smart_denoise.so
 odm/lib64/libarcsoft_supernight.so
 odm/lib64/libarcsoft_super_night_raw.so
-vendor/lib64/libarcsoft_smart_denoise.so
-vendor/lib64/libarcsoft_super_night_raw.so
-vendor/lib64/libarcsoft_superportrait.so
+odm/lib64/libarcsoft_superportrait.so
 vendor/lib64/libbitmlengine.so
 vendor/lib64/libcamera2ndk_vendor.so
 vendor/lib64/libcamera_nn_stub.so
@@ -295,7 +290,6 @@ vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libnanopb.so
 vendor/lib64/libofflinelog.so
-vendor/lib64/libos.so
 vendor/lib64/libswregistrationalgo.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
@@ -743,7 +737,7 @@ vendor/lib64/unnhal-acc-common.so
 vendor/lib64/unnhal-acc-hvx.so
 
 # NFC
-product/etc/nfc/libnfc-nci.conf
+product/etc/libnfc-nci.conf
 
 # OMX
 vendor/lib/libAlacSwDec.so
