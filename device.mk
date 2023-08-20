@@ -43,6 +43,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AntHalService
 
+# Doze
+PRODUCT_PACKAGES += \
+    OplusDoze
+
 # fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
