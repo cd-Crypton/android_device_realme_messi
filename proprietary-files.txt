@@ -1,9 +1,6 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
 ## from RMX3521_11.C.08_1080_202302141733
 
-## All proprietary files from this list, unless pinned and noted otherwise, are
-## from OnePlus Nord (AC2003_11_F.19).
-
 # ACDBs
 odm/etc/acdbdata/Audio_Parameter_Version.txt
 odm/etc/acdbdata/Bluetooth_cal.acdb
