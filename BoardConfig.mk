@@ -105,7 +105,7 @@ TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilts/dtb.img
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilts/dtbo.img
 
 # Metadata
-BOARD_USES_METADATA_PARTITION := true
+BOARD_USES_METADATA_PARTITION : true
 
 # Oplus Props
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_oplus
@@ -132,6 +132,7 @@ TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Platform
+BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := bengal
 
 # Properties
