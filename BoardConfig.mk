@@ -104,6 +104,9 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilts/dtb.img
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilts/dtbo.img
 
+# Metadata
+BOARD_USES_METADATA_PARTITION := true
+
 # Oplus Props
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_oplus
 
